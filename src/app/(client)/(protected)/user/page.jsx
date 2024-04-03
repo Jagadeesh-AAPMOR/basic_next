@@ -1,9 +1,8 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import React from "react";
 
-export default function Home() {
+const User = () => {
   return (
-    <main
+    <div
       style={{
         display: "flex",
         height: "100vh",
@@ -11,7 +10,10 @@ export default function Home() {
         justifyContent: "center",
       }}
     >
-      Home Page
-    </main>
+      {" "}
+      User Page
+    </div>
   );
-}
+};
+
+export default User;
